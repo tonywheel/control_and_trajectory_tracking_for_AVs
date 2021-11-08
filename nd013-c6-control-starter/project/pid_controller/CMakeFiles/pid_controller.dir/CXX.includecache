@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.cpp
 behavior_planner_FSM.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.h
 chrono
 -
 cmath
@@ -26,17 +26,17 @@ glog/logging.h
 gtest/gtest.h
 -
 planning_params.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/planning_params.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/planning_params.h
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 utils.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cost_functions.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cost_functions.cpp
 cost_functions.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cost_functions.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cost_functions.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cost_functions.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cost_functions.h
 math.h
 -
 algorithm
@@ -56,43 +56,43 @@ carla/client/Client.h
 glog/logging.h
 -
 planning_params.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/planning_params.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/planning_params.h
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 utils.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cubic_spiral.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cubic_spiral.cpp
 cubic_spiral.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cubic_spiral.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cubic_spiral.h
 algorithm
 -
 glog/logging.h
 -
 Eigen/Core
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/Eigen/Core
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/Eigen/Core
 Eigen/LU
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/Eigen/LU
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/Eigen/LU
 integral.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/integral.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/integral.h
 spiral_equations.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_equations.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_equations.h
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cubic_spiral.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cubic_spiral.h
 vector
 -
 glog/logging.h
 -
 spiral_base.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_base.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_base.h
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/integral.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/integral.cpp
 integral.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/integral.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/integral.h
 array
 -
 glog/logging.h
@@ -100,13 +100,13 @@ glog/logging.h
 gtest/gtest.h
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/integral.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/integral.h
 functional
 -
 vector
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/json.hpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/json.hpp
 algorithm
 -
 array
@@ -162,7 +162,7 @@ utility
 vector
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/main.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp
 string
 -
 array
@@ -196,7 +196,7 @@ fstream
 typeinfo
 -
 json.hpp
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/json.hpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/json.hpp
 carla/client/ActorBlueprint.h
 -
 carla/client/BlueprintLibrary.h
@@ -220,17 +220,17 @@ carla/image/ImageView.h
 carla/sensor/data/Image.h
 -
 Eigen/QR
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/Eigen/QR
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/Eigen/QR
 behavior_planner_FSM.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/behavior_planner_FSM.h
 motion_planner.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/motion_planner.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/motion_planner.h
 planning_params.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/planning_params.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/planning_params.h
 utils.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.h
 pid_controller.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/pid_controller.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.h
 limits
 -
 iostream
@@ -248,11 +248,11 @@ cmath
 time.h
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/motion_planner.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/motion_planner.cpp
 motion_planner.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/motion_planner.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/motion_planner.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/motion_planner.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/motion_planner.h
 math.h
 -
 cfloat
@@ -266,21 +266,21 @@ carla/client/Client.h
 glog/logging.h
 -
 cost_functions.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cost_functions.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cost_functions.h
 cubic_spiral.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/cubic_spiral.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/cubic_spiral.h
 planning_params.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/planning_params.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/planning_params.h
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 utils.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.h
 velocity_profile_generator.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp
 pid_controller.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/pid_controller.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.h
 vector
 -
 iostream
@@ -288,21 +288,21 @@ iostream
 math.h
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/pid_controller.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/planning_params.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/planning_params.h
 array
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_base.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_base.cpp
 spiral_base.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_base.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_base.h
 cmath
 -
 limits
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_base.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_base.h
 algorithm
 -
 cmath
@@ -310,31 +310,31 @@ cmath
 vector
 -
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_equations.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_equations.cpp
 spiral_equations.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_equations.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_equations.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/spiral_equations.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/spiral_equations.h
 array
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 vector
 -
 carla/geom/Location.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/carla/geom/Location.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/carla/geom/Location.h
 carla/geom/Rotation.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/carla/geom/Rotation.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/carla/geom/Rotation.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.cpp
 utils.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.h
 cmath
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.h
 random
 -
 vector
@@ -342,11 +342,11 @@ vector
 carla/client/Client.h
 -
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.cpp
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.cpp
 velocity_profile_generator.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.h
 cfloat
 -
 cmath
@@ -356,7 +356,7 @@ cstdlib
 thread
 -
 
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.h
 vector
 -
 carla/client/Client.h
@@ -364,9 +364,9 @@ carla/client/Client.h
 glog/logging.h
 -
 structs.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/structs.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/structs.h
 utils.h
-/home/zzbvy5/projects/udacity/CONTROL/nd013-c6-control-starter/project/pid_controller/utils.h
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/utils.h
 
 eigen-3.3.7/Eigen/Cholesky
 Core
