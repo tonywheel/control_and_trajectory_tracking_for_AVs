@@ -1,0 +1,145 @@
+[  8%] Building CXX object CMakeFiles/pid_controller.dir/main.cpp.o
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp: In function ‘void path_planner(std::vector<double>&, std::vector<double>&, std::vector<double>&, double, double, State, bool, std::__cxx11::string, std::vector<std::vector<double> >&, std::vector<std::vector<double> >&, std::vector<std::vector<double> >&, std::vector<int>&)’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:120:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    while( x_points.size() < max_points ){
+           ~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:142:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < spirals.size(); i++){
+                  ~~^~~~~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:150:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int j = 0; j < trajectory.size(); j++){
+                    ~~^~~~~~~~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:174:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while( x_points.size() < max_points && index < add_points ){
+          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp: In function ‘void set_obst(std::vector<double>, std::vector<double>, std::vector<State>&, bool&)’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:189:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for( int i = 0; i < x_points.size(); i++){
+                  ~~^~~~~~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp: In function ‘int main()’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:231:86: warning: already captured ‘prev_timer’ in lambda expression
+ id_steer, &pid_throttle, &new_delta_time, &timer, &prev_timer, &i, &prev_timer](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode)
+                                                                     ^~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp: In lambda function:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:250:18: warning: unused variable ‘sim_time’ [-Wunused-variable]
+           double sim_time = data["time"];
+                  ^~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:257:18: warning: unused variable ‘x_position’ [-Wunused-variable]
+           double x_position = data["location_x"];
+                  ^~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:258:18: warning: unused variable ‘y_position’ [-Wunused-variable]
+           double y_position = data["location_y"];
+                  ^~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:259:18: warning: unused variable ‘z_position’ [-Wunused-variable]
+           double z_position = data["location_z"];
+                  ^~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:295:18: warning: unused variable ‘error_steer’ [-Wunused-variable]
+           double error_steer;
+                  ^~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:332:18: warning: variable ‘error_throttle’ set but not used [-Wunused-but-set-variable]
+           double error_throttle;
+                  ^~~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:231:149: warning: unused parameter ‘length’ [-Wunused-parameter]
+ &i, &prev_timer](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode)
+                                                                     ^~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:231:169: warning: unused parameter ‘opCode’ [-Wunused-parameter]
+ (uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode)
+                                                                         ^~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp: In lambda function:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:403:49: warning: unused parameter ‘ws’ [-Wunused-parameter]
+   h.onConnection([](uWS::WebSocket<uWS::SERVER> ws, uWS::HttpRequest req)
+                                                 ^~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:403:70: warning: unused parameter ‘req’ [-Wunused-parameter]
+   h.onConnection([](uWS::WebSocket<uWS::SERVER> ws, uWS::HttpRequest req)
+                                                                      ^~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp: In lambda function:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:409:62: warning: unused parameter ‘code’ [-Wunused-parameter]
+   h.onDisconnection([&h](uWS::WebSocket<uWS::SERVER> ws, int code, char *message, size_t length)
+                                                              ^~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:409:74: warning: unused parameter ‘message’ [-Wunused-parameter]
+ nDisconnection([&h](uWS::WebSocket<uWS::SERVER> ws, int code, char *message, size_t length)
+                                                                     ^~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:409:90: warning: unused parameter ‘length’ [-Wunused-parameter]
+ on([&h](uWS::WebSocket<uWS::SERVER> ws, int code, char *message, size_t length)
+                                                                         ^~~~~~
+In file included from /home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:29:0:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/json.hpp: In function ‘main()::<lambda(uWS::WebSocket<true>, char*, size_t, uWS::OpCode)>’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/json.hpp:282:13: warning: ‘brake_output’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             j.m_value = val;
+             ^
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:342:18: note: ‘brake_output’ was declared here
+           double brake_output;
+                  ^~~~~~~~~~~~
+In file included from /home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:29:0:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/json.hpp:282:13: warning: ‘throttle_output’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             j.m_value = val;
+             ^
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:341:18: note: ‘throttle_output’ was declared here
+           double throttle_output;
+                  ^~~~~~~~~~~~~~~
+In file included from /home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:29:0:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/json.hpp:282:13: warning: ‘steer_output’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             j.m_value = val;
+             ^
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/main.cpp:298:18: note: ‘steer_output’ was declared here
+           double steer_output;
+                  ^~~~~~~~~~~~
+[ 16%] Building CXX object CMakeFiles/pid_controller.dir/behavior_planner_FSM.cpp.o
+[ 25%] Building CXX object CMakeFiles/pid_controller.dir/motion_planner.cpp.o
+[ 33%] Building CXX object CMakeFiles/pid_controller.dir/cubic_spiral.cpp.o
+[ 41%] Building CXX object CMakeFiles/pid_controller.dir/spiral_base.cpp.o
+[ 50%] Building CXX object CMakeFiles/pid_controller.dir/integral.cpp.o
+[ 58%] Building CXX object CMakeFiles/pid_controller.dir/spiral_equations.cpp.o
+[ 66%] Building CXX object CMakeFiles/pid_controller.dir/cost_functions.cpp.o
+[ 75%] Building CXX object CMakeFiles/pid_controller.dir/utils.cpp.o
+[ 83%] Building CXX object CMakeFiles/pid_controller.dir/velocity_profile_generator.cpp.o
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.cpp: In member function ‘std::vector<TrajectoryPoint> VelocityProfileGenerator::follow_trajectory(const std::vector<PathPoint>&, const double&, const double&, const State&) const’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.cpp:237:35: warning: unused parameter ‘spiral’ [-Wunused-parameter]
+     const std::vector<PathPoint>& spiral, const double& start_speed,
+                                   ^~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.cpp:237:57: warning: unused parameter ‘start_speed’ [-Wunused-parameter]
+     const std::vector<PathPoint>& spiral, const double& start_speed,
+                                                         ^~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.cpp:238:19: warning: unused parameter ‘desired_speed’ [-Wunused-parameter]
+     const double& desired_speed, const State& lead_car_state) const {
+                   ^~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/velocity_profile_generator.cpp:238:47: warning: unused parameter ‘lead_car_state’ [-Wunused-parameter]
+     const double& desired_speed, const State& lead_car_state) const {
+                                               ^~~~~~~~~~~~~~
+[ 91%] Building CXX object CMakeFiles/pid_controller.dir/pid_controller.cpp.o
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp: In member function ‘void PID::Init(double, double, double, double, double)’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:18:23: warning: unused parameter ‘Kpi’ [-Wunused-parameter]
+ void PID::Init(double Kpi, double Kii, double Kdi, double output_lim_maxi, double output_lim_mini) {
+                       ^~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:18:35: warning: unused parameter ‘Kii’ [-Wunused-parameter]
+ void PID::Init(double Kpi, double Kii, double Kdi, double output_lim_maxi, double output_lim_mini) {
+                                   ^~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:18:47: warning: unused parameter ‘Kdi’ [-Wunused-parameter]
+ void PID::Init(double Kpi, double Kii, double Kdi, double output_lim_maxi, double output_lim_mini) {
+                                               ^~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:18:59: warning: unused parameter ‘output_lim_maxi’ [-Wunused-parameter]
+ void PID::Init(double Kpi, double Kii, double Kdi, double output_lim_maxi, double output_lim_mini) {
+                                                           ^~~~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:18:83: warning: unused parameter ‘output_lim_mini’ [-Wunused-parameter]
+ (double Kpi, double Kii, double Kdi, double output_lim_maxi, double output_lim_mini) {
+                                                                     ^~~~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp: In member function ‘void PID::UpdateError(double)’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:25:30: warning: unused parameter ‘cte’ [-Wunused-parameter]
+ void PID::UpdateError(double cte) {
+                              ^~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp: In member function ‘double PID::UpdateDeltaTime(double)’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:44:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:40:36: warning: unused parameter ‘new_delta_time’ [-Wunused-parameter]
+ double PID::UpdateDeltaTime(double new_delta_time) {
+                                    ^~~~~~~~~~~~~~
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp: In member function ‘double PID::TotalError()’:
+/home/zzbvy5/projects/udacity/CONTROL/control_and_trajectory_tracking_for_AVs/nd013-c6-control-starter/project/pid_controller/pid_controller.cpp:37:12: warning: ‘control’ is used uninitialized in this function [-Wuninitialized]
+     return control;
+            ^~~~~~~
+make[2]: *** No rule to make target '/usr/src/gtest/libgtest.a', needed by 'pid_controller'.  Stop.
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/pid_controller.dir/all' failed
+make[1]: *** [CMakeFiles/pid_controller.dir/all] Error 2
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2
