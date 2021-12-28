@@ -15,20 +15,31 @@ public:
    **/
 
     /*
-    * Errors
+    * Errors:
+    * proportional, integral, derivative, previous
     */
+  	double cte;
+  	double int_cte;
+  	double diff_cte;
+  	double prev_cte;
 
     /*
     * Coefficients
     */
+  	double Kp;
+  	double Ki;
+  	double Kd;
 
     /*
     * Output limits
     */
+  	double output_lim_max;
+  	double output_lim_min;
   
     /*
     * Delta time
     */
+  	double delta_time;
 
     /*
     * Constructor
@@ -48,7 +59,7 @@ public:
     /*
     * Update the PID error variables given cross track error.
     */
-    void UpdateError(double cte);
+    void UpdateError(double cte_curr);
 
     /*
     * Calculate the total PID error.
