@@ -25,6 +25,7 @@
 #include <iostream>
 #include <fstream>
 #include <typeinfo>
+#include <bits/stdc++.h>
 
 #include "json.hpp"
 #include <carla/client/ActorBlueprint.h>
@@ -337,7 +338,8 @@ int main ()
           * IN-TEST (step 2): compute the throttle error (error_throttle) from the position and the desired speed
           **/
           // modify the following line for step 2
-          error_throttle = velocity - v_points[v_points.size() - 1];
+          double v_avg = (accumulate(v_points.begin(), v_points.end(), 0)/v_points.size());
+          error_throttle = velocity - v_avg;
 
           double throttle_output;
           double brake_output;

@@ -38,8 +38,8 @@ void PID::UpdateError(double cte_curr) {
    * TODO: Update PID errors based on cte.
    **/
   cte = cte_curr;
-  diff_cte = cte - prev_cte;
-  int_cte += cte;
+  diff_cte = (cte - prev_cte) * delta_time;
+  int_cte += cte * delta_time;
   prev_cte = cte;
   
 }
@@ -52,6 +52,7 @@ double PID::TotalError() {
     double control;
   	control = Kp * cte + Ki * int_cte + Kd * diff_cte;
   	control = max(min(control, output_lim_max), output_lim_min);
+    std::cout << "new control : " << control << std::endl;
     return control;
 }
 
@@ -60,5 +61,6 @@ double PID::UpdateDeltaTime(double new_delta_time) {
    * TODO: Update the delta time with new value
    */
   delta_time = new_delta_time;
+  std::cout << "new delta time: " << delta_time << std::endl;
   return delta_time;
 }
