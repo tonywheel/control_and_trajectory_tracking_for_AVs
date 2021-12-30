@@ -196,6 +196,14 @@ void set_obst(vector<double> x_points, vector<double> y_points, vector<State>& o
 	obst_flag = true;
 }
 
+double correct_angle(double angle) {
+    if(abs(angle) > M_PI) {
+        if(angle < -M_PI) angle += 2 * M_PI;
+        if(angle > M_PI) angle -= 2 * M_PI;
+    }
+    return angle;
+}
+
 int main ()
 {
   cout << "starting server" << endl;
@@ -228,9 +236,9 @@ int main ()
   
   
   PID pid_steer = PID();
-  pid_steer.Init(0.5, 0.5, 0.5, 1.2, -1.2);
+  pid_steer.Init(0.15, 0.05, 0.05, 1.2, -1.2);
   PID pid_throttle = PID();
-  pid_throttle.Init(0.5, 0.5, 0.5, 1, -1);
+  pid_throttle.Init(0.4, 0.1, 0.1, 1, -1);
 
   h.onMessage([&pid_steer, &pid_throttle, &new_delta_time, &timer, &prev_timer, &i, &prev_timer](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode)
   {
@@ -297,14 +305,21 @@ int main ()
 
           // Compute steer error
           double error_steer;
-
-
           double steer_output;
 
           /**
           * IN-TEST (step 3): compute the steer error (error_steer) from the position and the desired trajectory
           **/
-          error_steer = yaw - atan(x_points[x_points.size() - 1] / y_points[y_points.size() - 1]);
+          
+          double x_avg = (accumulate(x_points.begin(), x_points.end(), 0.0)/x_points.size());
+          double y_avg = (accumulate(y_points.begin(), y_points.end(), 0.0)/y_points.size());
+          
+          double desired_steer = atan((y_avg - y_position)/(x_avg - x_position));
+          
+          desired_steer = correct_angle(desired_steer);
+          yaw = correct_angle(yaw);
+          error_steer = yaw - desired_steer;
+          error_steer = correct_angle(error_steer);
 
           /**
           * IN-TEST (step 3): uncomment these lines
