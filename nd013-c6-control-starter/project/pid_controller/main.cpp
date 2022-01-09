@@ -236,7 +236,7 @@ int main ()
   
   
   PID pid_steer = PID();
-  pid_steer.Init(0.5, 0.0, 0.0, 1.2, -1.2);
+  pid_steer.Init(0.3, 0.001, 1.0, 1.2, -1.2);
   PID pid_throttle = PID();
   pid_throttle.Init(0.5, 0.0, 0.0, 1, -1);
 
@@ -314,11 +314,12 @@ int main ()
           double x_avg = (accumulate(x_points.begin(), x_points.end(), 0.0)/x_points.size());
           double y_avg = (accumulate(y_points.begin(), y_points.end(), 0.0)/y_points.size());
           
-          double desired_steer = atan((y_avg - y_position)/(x_avg - x_position));
+//           double desired_steer = atan((y_avg - y_position)/(x_avg - x_position));
+          double desired_steer = angle_between_points(x_position, y_position, x_points[i], y_points[i]);
           
           desired_steer = correct_angle(desired_steer);
           yaw = correct_angle(yaw);
-          error_steer = yaw - desired_steer;
+          error_steer = desired_steer - yaw;
           error_steer = correct_angle(error_steer);
 
           /**
@@ -374,6 +375,10 @@ int main ()
             throttle_output = 0;
             brake_output = -throttle;
           }
+          
+          // test inputs
+          throttle_output = 0.3;
+          brake_output = 0.0;
 
           // Save data
           file_throttle.seekg(std::ios::beg);
